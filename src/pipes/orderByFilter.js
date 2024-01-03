@@ -1,5 +1,3 @@
-import {ORDER_BY_ASC} from "../actions";
-
 export const orderByFilter = (arr, type ) => {
     if(!type) return arr;
     console.log('orderbYmethod', type);

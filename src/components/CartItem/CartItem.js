@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {shortenTitle} from "../../pipes/shortenTitle";
 import {formatMoney} from "../../pipes/priceFormatter";
 import './CartItem.scss';
-import {addProductToCart, decrementCartQuantity, incrementCartQuantity, removeProductToCart} from "../../actions";
+import { decrementCartQuantity, incrementCartQuantity, removeProductToCart} from "../../actions";
 
 const CartItem = (
     {

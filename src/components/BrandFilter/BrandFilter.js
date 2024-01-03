@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {connect} from 'react-redux';
 import './BrandFilter.scss';
 import {brands} from "../../data/brands";
@@ -10,7 +10,6 @@ const BrandFilter = (props) => {
     const {dispatch, brandItemsCount} = props;
     const handleSelectBox = (e) => {
         const name = e.target.name;
-        const value = e.target.checked;
 
         if(e.target.checked) {
             dispatch(addBrandToFilter(name));

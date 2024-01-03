@@ -7,18 +7,15 @@ const ProductDetail = (props) => {
 
     const {
         title,
-        images,
         brand,
         price,
         cpu,
         camera,
         size,
-        weight,
         display,
         battery,
         memory,
         description,
-        id
     } = props.product;
 
 

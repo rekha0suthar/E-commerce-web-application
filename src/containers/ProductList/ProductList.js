@@ -55,12 +55,7 @@ class ProductList extends Component {
             currentPage: n
         });
     };
-
-
     render() {
-
-        let isActive = this.state.colValue[this.state.colValue.length -1];
-
         return (
             <div className="col-lg-9">
                 <div className="row mb-3">

@@ -1,7 +1,6 @@
 import React from 'react';
 import FilterBar from "../../containers/FilterBar/FilterBar";
 import ProductList from "../../containers/ProductList/ProductList";
-import Pagination from "../../components/Pagination/Pagination";
 
 const Home = () => {
     return (
